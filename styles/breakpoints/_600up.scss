@@ -4,7 +4,6 @@ Stylesheet: 600px以上のモニタで適用
 
 ******************************************************************/
 
-
 .c-container {
   padding: 0 10vw;
 }
@@ -58,7 +57,6 @@ Stylesheet: 600px以上のモニタで適用
 
 //.p-firstview
 .p-firstview {
-
   .swiper-container {
     height: 70;
   }
@@ -66,7 +64,6 @@ Stylesheet: 600px以上のモニタで適用
 
 //.p-concept
 .p-concept {
-
   &__title {
     padding-bottom: 5vw;
   }
@@ -104,9 +101,8 @@ Stylesheet: 600px以上のモニタで適用
   }
 }
 
-//.p-method 
+//.p-method
 .p-method {
-
   &__flex {
     width: 48%;
   }
@@ -174,7 +170,7 @@ Stylesheet: 600px以上のモニタで適用
   }
 }
 
-//.p-access 
+//.p-access
 .p-access {
   &__wrap {
     display: flex;
@@ -295,13 +291,29 @@ Stylesheet: 600px以上のモニタで適用
       }
     }
 
-
     &__img {
       width: 50%;
     }
 
     &__desc {
       width: 50%;
+    }
+  }
+
+  .c-flow {
+    &-item {
+      .c-container {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+
+    & .item-wrap {
+      width: 48%;
+    }
+
+    & .item-img {
+      width: 48%;
     }
   }
 }
