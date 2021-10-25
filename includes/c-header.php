@@ -1,7 +1,7 @@
     <header id="header" class="p-header">
       <div class="mobile-container">
         <div class=" logo__img">
-          <a href="/">
+          <a href=" <?php echo esc_url( home_url('/')); ?>">
             <div class="logo"></div>
           </a>
         </div>
@@ -16,38 +16,38 @@
       <!-- /.mobile-container -->
       <div class="pc-container">
         <div class=" logo__img">
-          <a class="animsition-link" href="/">
+          <a class="animsition-link" href=" <?php echo esc_url( home_url('/')); ?>">
             <div class="logo-pc logo"></div>
           </a>
         </div>
         <nav class="pc-nav">
           <ul class="pc-nav-list">
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/about/about.html"><span>RivRoundについて</span>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/about')); ?>"><span>RivRoundについて</span>
                 <small>ABOUT</small></a>
             </li>
             <li class="pc-nav-item">
               <a class="pc-nav-link animsition-link"
-                href="/method/method.html"><span>トレーニングメソッド</span><small>METHOD</small></a>
+                href=" <?php echo esc_url( home_url('/method')); ?>"><span>トレーニングメソッド</span><small>METHOD</small></a>
             </li>
             <li class="pc-nav-item">
               <a class="pc-nav-link animsition-link"
-                href="/trainers/trainers.html"><span>スタッフ紹介</span><small>STAFF</small></a>
+                href=" <?php echo esc_url( home_url('/trainers')); ?>"><span>スタッフ紹介</span><small>STAFF</small></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/faq/faq.html"><span>よくあるご質問</span><small>FAQ</small></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/faq')); ?>"><span>よくあるご質問</span><small>FAQ</small></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/news/news.html"><span>お知らせ</span><small>NEWS</small></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/news')); ?>"><span>お知らせ</span><small>NEWS</small></a>
             </li>
             <li class="pc-nav-item">
               <a class="pc-nav-link animsition-link"
-                href="/recruit/recruit.html"><span>採用情報</span><small>RECRUIT</small></a>
+                href=" <?php echo esc_url( home_url('/recruit')); ?>"><span>採用情報</span><small>RECRUIT</small></a>
             </li>
           </ul>
           <div class="pc-contact">
             <a class="pc-tel" href="tel:092-686-7954">0120-123-456</a>
-            <a class="pc-net" href="/contact/contact.html">お問い合わせフォーム</a>
+            <a class="pc-net" href=" <?php echo esc_url( home_url('/contact')); ?>">お問い合わせフォーム</a>
           </div>
         </nav>
       </div>
@@ -58,7 +58,7 @@
             <a class="tel" href="tel:092-686-7954">電話予約<i class="icon-tel"></i></a>
           </li>
           <li>
-            <a class="net" target="_blank" href="https://beauty.hotpepper.jp/">オンライン予約<i class="icon-net"></i></a>
+            <a class="net" target="_blank" href=" <?php echo esc_url( home_url('https://beauty.hotpepper.jp/')); ?>">オンライン予約<i class="icon-net"></i></a>
           </li>
         </ul>
       </nav>

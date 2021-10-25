@@ -282,6 +282,7 @@
         </h2>
         <div class="p-news__wrapper appear up">
           <ul class="p-news__list item">
+            <?php query_posts('posts_per_page=3'); ?>
             <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
               <li class="p-news__item">
                 <a class="p-news__link animsition-link" href="<?php the_permalink() ;?>">

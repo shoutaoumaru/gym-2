@@ -7,29 +7,29 @@
           <div class="p-footer__nav">
             <ul>
               <li>
-                <a class="animsition-link" href="/"><span class="c-txt-sm">ホーム</span></a>
+                <a class="animsition-link" href=" <?php echo esc_url( home_url('/')); ?>"><span class="c-txt-sm">ホーム</span></a>
               </li>
               <li>
-                <a class="animsition-link" href="/about/about.html"><span class="c-txt-sm">RivRoundについて</span></a>
+                <a class="animsition-link" href=" <?php echo esc_url( home_url('/about')); ?>"><span class="c-txt-sm">RivRoundについて</span></a>
               </li>
               <li>
-                <a class="animsition-link" href="/method/method.html"><span class="c-txt-sm">トレーニングメソッド</span></a>
+                <a class="animsition-link" href=" <?php echo esc_url( home_url('/method')); ?>"><span class="c-txt-sm">トレーニングメソッド</span></a>
               </li>
               <li>
-                <a class="animsition-link" href="/trainers/trainers.html"><span class="c-txt-sm">スタッフ紹介</span></a>
+                <a class="animsition-link" href=" <?php echo esc_url( home_url('/method')); ?>"><span class="c-txt-sm">スタッフ紹介</span></a>
               </li>
               <li>
-                <a class="animsition-link" href="/faq/faq.html"><span class="c-txt-sm">よくあるご質問</span></a>
+                <a class="animsition-link" href=" <?php echo esc_url( home_url('/faq')); ?>"><span class="c-txt-sm">よくあるご質問</span></a>
               </li>
 
               <li>
-                <a class="animsition-link " href="/news/news.html"><span class="c-txt-sm">お知らせ</span></a>
+                <a class="animsition-link " href=" <?php echo esc_url( home_url('/news')); ?>"><span class="c-txt-sm">お知らせ</span></a>
               </li>
               <li>
-                <a class="animsition-link" href="/recruit/recruit.html"><span class="c-txt-sm">採用情報</span></a>
+                <a class="animsition-link" href=" <?php echo esc_url( home_url('/recruit')); ?>"><span class="c-txt-sm">採用情報</span></a>
               </li>
               <li>
-                <a class="animsition-link" href="/"><span class="c-txt-sm">プライバシーポリシー</span></a>
+                <a class="animsition-link" href=" <?php echo esc_url( home_url('/')); ?>"><span class="c-txt-sm">プライバシーポリシー</span></a>
               </li>
             </ul>
           </div>
@@ -41,13 +41,13 @@
     <div class="mobile-menu">
       <nav class="mobile-menu__nav">
         <ul class="mobile-menu__list">
-          <li class="mobile-menu__item"><a class="animsition-link" href="/">ホーム</a></li>
-          <li class="mobile-menu__item"><a class="animsition-link" href="/about/about.html">RivRoundについて</a></li>
-          <li class="mobile-menu__item"><a class="animsition-link" href="/method/method.html">トレーニングメソッド</a></li>
-          <li class="mobile-menu__item"><a class="animsition-link" href="/trainers/trainers.html">スタッフ紹介</a></li>
-          <li class="mobile-menu__item"><a class="animsition-link" href="/faq/faq.html">よくあるご質問</a></li>
-          <li class="mobile-menu__item"><a class="animsition-link" href="/news/news.html">お知らせ</a></li>
-          <li class="mobile-menu__item"><a class="animsition-link" href="/recruit/recruit.html">採用情報</a></li>
+          <li class="mobile-menu__item"><a class="animsition-link" href=" <?php echo esc_url( home_url('/')); ?>">ホーム</a></li>
+          <li class="mobile-menu__item"><a class="animsition-link" href=" <?php echo esc_url( home_url('/about')); ?>">RivRoundについて</a></li>
+          <li class="mobile-menu__item"><a class="animsition-link" href=" <?php echo esc_url( home_url('/method')); ?>">トレーニングメソッド</a></li>
+          <li class="mobile-menu__item"><a class="animsition-link" href=" <?php echo esc_url( home_url('/method')); ?>">スタッフ紹介</a></li>
+          <li class="mobile-menu__item"><a class="animsition-link" href=" <?php echo esc_url( home_url('/faq')); ?>">よくあるご質問</a></li>
+          <li class="mobile-menu__item"><a class="animsition-link" href=" <?php echo esc_url( home_url('/news')); ?>">お知らせ</a></li>
+          <li class="mobile-menu__item"><a class="animsition-link" href=" <?php echo esc_url( home_url('/recruit')); ?>">採用情報</a></li>
         </ul>
         <div class="contact-btn">
           <ul class="contact-btn-list">
@@ -57,7 +57,7 @@
               </a>
             </li>
             <li class="contact-btn-item">
-              <a href="/contact/contact.html">
+              <a href=" <?php echo esc_url( home_url('/contact')); ?>">
                 <span class="mail">お問い合わせ</span>
               </a>
             </li>
@@ -70,3 +70,4 @@
         </ul>
       </nav>
     </div>
+    <?php wp_footer(); ?>
