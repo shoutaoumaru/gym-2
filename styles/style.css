@@ -99,7 +99,7 @@
 .c-txt-sm {
   font-size: 14px;
   letter-spacing: 2px;
-  line-height: 2.5;
+  line-height: 2;
 }
 
 @media screen and (min-width: 600px) {
@@ -124,7 +124,7 @@
   font-size: 10px;
   letter-spacing: 2px;
   line-height: 2;
-  color: #347eaf;
+  color: #968a64;
 }
 
 @media screen and (min-width: 600px) {
@@ -147,14 +147,18 @@
 
 .mb-sm, .tit, .p-concept__desc, .p-instagram__desc, .p-voices__desc, .p-price__img, .p-price__desc, .p-price__detail, .p-staff__img, .p-staff__desc, .p-access__img, .p-access__desc, .p-access__map, .p-footer__logo, .p-footer__address, .c-about .c-points__img,
 .c-method .c-points__img, .c-about .c-points__desc .num-wrap,
-.c-method .c-points__desc .num-wrap, .c-trainers .c-staff__item .director, .c-trainers .c-staff__img, .c-trainers .c-staff__text, .c-trainers .c-staff__ls, .faq-wrapper .faq .c-txtarea01, .faq-wrapper .faq__item, .c-contact .c-topview__img, .c-contact .contact-form .privacy, .c-contact .contact-form .submit-btn, .mobile-menu__item {
+.c-method .c-points__desc .num-wrap, .c-about .c-flow .item-tit,
+.c-method .c-flow .item-tit, .c-about .c-flow .item-img,
+.c-method .c-flow .item-img, .c-trainers .c-staff__item .director, .c-trainers .c-staff__img, .c-trainers .c-staff__text, .c-trainers .c-staff__ls, .faq-wrapper .faq .c-txtarea01, .faq-wrapper .faq__item, .c-contact .c-topview__img, .c-contact .contact-form .privacy, .c-contact .contact-form .submit-btn, .mobile-menu__item {
   margin-bottom: 30px;
 }
 
 @media screen and (min-width: 600px) {
   .mb-sm, .tit, .p-concept__desc, .p-instagram__desc, .p-voices__desc, .p-price__img, .p-price__desc, .p-price__detail, .p-staff__img, .p-staff__desc, .p-access__img, .p-access__desc, .p-access__map, .p-footer__logo, .p-footer__address, .c-about .c-points__img,
   .c-method .c-points__img, .c-about .c-points__desc .num-wrap,
-  .c-method .c-points__desc .num-wrap, .c-trainers .c-staff__item .director, .c-trainers .c-staff__img, .c-trainers .c-staff__text, .c-trainers .c-staff__ls, .faq-wrapper .faq .c-txtarea01, .faq-wrapper .faq__item, .c-contact .c-topview__img, .c-contact .contact-form .privacy, .c-contact .contact-form .submit-btn, .mobile-menu__item {
+  .c-method .c-points__desc .num-wrap, .c-about .c-flow .item-tit,
+  .c-method .c-flow .item-tit, .c-about .c-flow .item-img,
+  .c-method .c-flow .item-img, .c-trainers .c-staff__item .director, .c-trainers .c-staff__img, .c-trainers .c-staff__text, .c-trainers .c-staff__ls, .faq-wrapper .faq .c-txtarea01, .faq-wrapper .faq__item, .c-contact .c-topview__img, .c-contact .contact-form .privacy, .c-contact .contact-form .submit-btn, .mobile-menu__item {
     margin-bottom: 30px;
   }
 }
@@ -162,7 +166,9 @@
 @media screen and (min-width: 960px) {
   .mb-sm, .tit, .p-concept__desc, .p-instagram__desc, .p-voices__desc, .p-price__img, .p-price__desc, .p-price__detail, .p-staff__img, .p-staff__desc, .p-access__img, .p-access__desc, .p-access__map, .p-footer__logo, .p-footer__address, .c-about .c-points__img,
   .c-method .c-points__img, .c-about .c-points__desc .num-wrap,
-  .c-method .c-points__desc .num-wrap, .c-trainers .c-staff__item .director, .c-trainers .c-staff__img, .c-trainers .c-staff__text, .c-trainers .c-staff__ls, .faq-wrapper .faq .c-txtarea01, .faq-wrapper .faq__item, .c-contact .c-topview__img, .c-contact .contact-form .privacy, .c-contact .contact-form .submit-btn, .mobile-menu__item {
+  .c-method .c-points__desc .num-wrap, .c-about .c-flow .item-tit,
+  .c-method .c-flow .item-tit, .c-about .c-flow .item-img,
+  .c-method .c-flow .item-img, .c-trainers .c-staff__item .director, .c-trainers .c-staff__img, .c-trainers .c-staff__text, .c-trainers .c-staff__ls, .faq-wrapper .faq .c-txtarea01, .faq-wrapper .faq__item, .c-contact .c-topview__img, .c-contact .contact-form .privacy, .c-contact .contact-form .submit-btn, .mobile-menu__item {
     margin-bottom: 30px;
   }
 }
@@ -188,14 +194,18 @@
 
 .mb-lr, .p-firstview, .p-concept, .p-method, .p-instagram, .p-access, .c-about .c-features,
 .c-method .c-features, .c-about .c-points,
-.c-method .c-points, .c-recruit, .faq-wrapper .faq {
+.c-method .c-points, .c-about .c-flow,
+.c-method .c-flow, .c-about .c-flow-content,
+.c-method .c-flow-content, .c-recruit, .faq-wrapper .faq {
   margin-bottom: 70px;
 }
 
 @media screen and (min-width: 600px) {
   .mb-lr, .p-firstview, .p-concept, .p-method, .p-instagram, .p-access, .c-about .c-features,
   .c-method .c-features, .c-about .c-points,
-  .c-method .c-points, .c-recruit, .faq-wrapper .faq {
+  .c-method .c-points, .c-about .c-flow,
+  .c-method .c-flow, .c-about .c-flow-content,
+  .c-method .c-flow-content, .c-recruit, .faq-wrapper .faq {
     margin-bottom: 80px;
   }
 }
@@ -203,7 +213,9 @@
 @media screen and (min-width: 960px) {
   .mb-lr, .p-firstview, .p-concept, .p-method, .p-instagram, .p-access, .c-about .c-features,
   .c-method .c-features, .c-about .c-points,
-  .c-method .c-points, .c-recruit, .faq-wrapper .faq {
+  .c-method .c-points, .c-about .c-flow,
+  .c-method .c-flow, .c-about .c-flow-content,
+  .c-method .c-flow-content, .c-recruit, .faq-wrapper .faq {
     margin-bottom: 80px;
   }
 }
@@ -278,7 +290,7 @@
 @media screen and (min-width: 1200px) {
   .c-container, .c-about .c-points__desc,
   .c-method .c-points__desc {
-    padding: 0 8vw;
+    padding: 0 10vw;
   }
 }
 
@@ -533,7 +545,7 @@ a {
 }
 
 .more-btn__link span:first-child::before {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   top: 0;
@@ -874,6 +886,71 @@ a {
   text-align: center;
 }
 
+.c-about .c-flow,
+.c-method .c-flow {
+  padding-top: 50px;
+}
+
+.c-about .c-flow .item-tit,
+.c-method .c-flow .item-tit {
+  font-size: 24px;
+}
+
+.c-about .c-flow .item-tit .num,
+.c-method .c-flow .item-tit .num {
+  color: #dad7cd;
+  font-size: 42px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.c-about .c-flow-item,
+.c-method .c-flow-item {
+  position: relative;
+  padding: 50px 0;
+}
+
+.c-about .c-flow-item::after,
+.c-method .c-flow-item::after {
+  content: "";
+  position: absolute;
+  z-index: 200;
+  bottom: -20px;
+  left: 50%;
+  margin-left: -40px;
+  display: block;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 20px 40px 0 40px;
+  border-color: #f0f0f0 transparent transparent transparent;
+}
+
+.c-about .c-flow-item:last-child::after,
+.c-method .c-flow-item:last-child::after {
+  display: none;
+}
+
+.c-about .c-flow #flow02::after,
+.c-about .c-flow #flow04::after,
+.c-about .c-flow #flow06::after,
+.c-method .c-flow #flow02::after,
+.c-method .c-flow #flow04::after,
+.c-method .c-flow #flow06::after {
+  border-color: #fff transparent transparent transparent;
+}
+
+.c-about .c-flow #flow01,
+.c-about .c-flow #flow03,
+.c-about .c-flow #flow05,
+.c-about .c-flow #flow07,
+.c-method .c-flow #flow01,
+.c-method .c-flow #flow03,
+.c-method .c-flow #flow05,
+.c-method .c-flow #flow07 {
+  background-color: #f0f0f0;
+}
+
 .c-about .more-btn,
 .c-method .more-btn {
   text-align: center;
@@ -883,6 +960,20 @@ a {
 .c-about .more-btn__link,
 .c-method .more-btn__link {
   width: auto;
+}
+
+@media (max-width: 599px) {
+  .c-about .item-img.view-pc,
+  .c-method .item-img.view-pc {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) {
+  .c-about .item-img.view-sp,
+  .c-method .item-img.view-sp {
+    display: none;
+  }
 }
 
 .c-trainers .c-staff__item .director {
@@ -1002,7 +1093,7 @@ a {
 }
 
 .faq-wrapper .faq dt::before {
-  content: 'Q';
+  content: "Q";
   position: absolute;
   top: -5px;
   left: 0;
@@ -1024,7 +1115,7 @@ a {
 }
 
 .faq-wrapper .faq dt span::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   bottom: 0;
@@ -1036,8 +1127,8 @@ a {
   background-position: top center;
   background-repeat: no-repeat;
   background-size: contain;
-  -webkit-transition: all .2s;
-  transition: all .2s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 .faq-wrapper .faq dd {
@@ -1045,7 +1136,7 @@ a {
 }
 
 .faq-wrapper .faq dd::before {
-  content: 'A';
+  content: "A";
   position: absolute;
   top: 0;
   left: 0;
@@ -1126,7 +1217,7 @@ a {
   width: 40px;
   height: 40px;
   border-radius: 100%;
-  border: 1px solid #C4CCD1;
+  border: 1px solid #c4ccd1;
   background: #fff;
   margin: 0 1.3vw;
 }
@@ -1187,7 +1278,7 @@ a {
 
 .c-news__contents {
   line-height: 2;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .c-news__title {
@@ -1218,7 +1309,7 @@ a {
 .c-news-sl__link {
   margin: 0 0 10vw 0;
   text-align: right;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .c-news-sl__link a {
@@ -1242,7 +1333,7 @@ a {
 
 .c-contact .c-description {
   padding: 40px 0;
-  background-color: black;
+  background-color: rgba(255, 255, 255, 0.9);
   color: #fff;
 }
 
@@ -1304,7 +1395,7 @@ a {
 }
 
 .c-contact .contact-form .must::after {
-  content: '*';
+  content: "*";
   font-size: 14px;
   color: #1d649e;
 }
@@ -3321,6 +3412,24 @@ Stylesheet: 600px以上のモニタで適用
   .c-about .c-points__desc,
   .c-method .c-points__desc {
     width: 50%;
+  }
+  .c-about .c-flow-item .c-container, .c-about .c-flow-item .c-points__desc,
+  .c-method .c-flow-item .c-container,
+  .c-method .c-flow-item .c-points__desc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .c-about .c-flow .item-wrap,
+  .c-method .c-flow .item-wrap {
+    width: 48%;
+  }
+  .c-about .c-flow .item-img,
+  .c-method .c-flow .item-img {
+    width: 48%;
   }
   .c-trainers .c-staff__flex {
     display: -webkit-box;

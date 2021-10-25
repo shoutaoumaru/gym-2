@@ -7,9 +7,14 @@ $cSubWhite:rgb(245, 245, 245);
 $cBlue: rgb(52, 126, 175);
 $cShadowBlue: rgb(32, 80, 119);
 $cSubBlue: #e2eaf3;
-$cOrange :#F99900;
+$cBg:#f0f0f0;
+$cBgTop:#f9f9f6;
+$cNum:#dad7cd;
+$cYellow:#dbd4bd;
+$cSubYellow:#968a64;
+$cSpbtn : rgba(248, 248, 250, 0.9);
 $cContact: rgb(248, 248, 250);
-$cHeader:rgb(0, 0, 0);
+$cHeader:rgba(255, 255, 255, 0.9);
 $cHeader-pc:rgba(0, 0, 0, 0.9);
 $breakpoints: ('md': 'screen and (min-width: 600px)',
   'lr': 'screen and (min-width: 960px)',
@@ -73,7 +78,7 @@ $breakpoints: ('md': 'screen and (min-width: 600px)',
 .c-txt-sm {
   font-size: 14px;
   letter-spacing: 2px;
-  line-height: 2.5;
+  line-height: 2;
 
   @include mq(md) {
     line-height: 1.7;
@@ -92,7 +97,7 @@ $breakpoints: ('md': 'screen and (min-width: 600px)',
   font-size: 10px;
   letter-spacing: 2px;
   line-height: 2;
-  color: $cBlue;
+  color: $cSubYellow;
 
   @include mq(md) {
     font-size: 12px;
@@ -191,6 +196,6 @@ $breakpoints: ('md': 'screen and (min-width: 600px)',
   }
 
   @include mq(lg) {
-    padding: 0 8vw;
+    padding: 0 10vw;
   }
 }
