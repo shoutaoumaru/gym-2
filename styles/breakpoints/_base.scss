@@ -75,7 +75,7 @@ a {
   right: 0;
   bottom: 0;
   margin: auto;
-  background-image: url(/images/common/tel-black.png);
+  background-image: url(../images/common/tel-black.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -90,7 +90,7 @@ a {
   right: 0;
   bottom: 0;
   margin: auto;
-  background-image: url(/images/common/icon-link-1-black.png);
+  background-image: url(../images/common/icon-link-1-black.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -104,7 +104,7 @@ a {
   &::before {
     content: "";
     display: block;
-    background-image: url(/images/common/icon-map.png);
+    background-image: url(../images/common/icon-map.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -125,7 +125,7 @@ a {
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url(/images/common/icon-insta-gr.png);
+    background-image: url(../images/common/icon-insta-gr.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -156,7 +156,7 @@ a {
       margin: auto;
       height: 20px;
       width: 20px;
-      background-image: url(/images/common/icon-insta-gr.png);
+      background-image: url(../images/common/icon-insta-gr.png);
       background-repeat: no-repeat;
       background-size: contain;
     }
@@ -171,7 +171,7 @@ a {
       margin: auto;
       height: 14px;
       width: 14px;
-      background-image: url(/images/common/arrow.png);
+      background-image: url(../images/common/arrow.png);
       background-repeat: no-repeat;
       background-size: contain;
     }
@@ -257,7 +257,7 @@ a {
           bottom: 0;
           margin: auto;
           width: 20px;
-          background-image: url(/images/common/arrow-wh.png);
+          background-image: url(../images/common/arrow-wh.png);
           background-position: center;
           background-repeat: no-repeat;
           background-size: contain;
@@ -294,7 +294,7 @@ a {
 
           &:first-child {
             &::before {
-              background-image: url(/images/common/arrow.png);
+              background-image: url(../images/common/arrow.png);
             }
           }
         }
@@ -634,7 +634,7 @@ a {
           content: "";
           height: 10px;
           width: 10px;
-          background-image: url(/images/common/arrow.png);
+          background-image: url(../images/common/arrow.png);
           background-repeat: no-repeat;
           background-size: contain;
         }
@@ -1009,7 +1009,7 @@ a {
           right: 0;
           width: 16px;
           height: 16px;
-          background-image: url(/images/common/arrow-down-bl.png);
+          background-image: url(../images/common/arrow-down-bl.png);
           background-position: top center;
           background-repeat: no-repeat;
           background-size: contain;
@@ -1117,7 +1117,7 @@ a {
         content: "";
         position: absolute;
         right: 0;
-        background-image: url(/images/common/arrow.png);
+        background-image: url(../images/common/arrow.png);
         background-position: right center;
         background-repeat: no-repeat;
         background-size: 100% 100%;
