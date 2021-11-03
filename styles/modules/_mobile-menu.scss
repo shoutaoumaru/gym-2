@@ -109,10 +109,8 @@
 
   @media (min-width:960px) {
 
-    .mobile-container {
-      display: none;
-    }
-
+    .mobile-container,
+    .mobile-menu,
     .sp-navbtn {
       display: none;
     }

@@ -2476,9 +2476,8 @@ a {
 }
 
 @media (min-width: 960px) {
-  .p-header .mobile-container {
-    display: none;
-  }
+  .p-header .mobile-container,
+  .p-header .mobile-menu,
   .p-header .sp-navbtn {
     display: none;
   }
