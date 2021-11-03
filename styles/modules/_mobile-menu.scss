@@ -41,7 +41,7 @@
     outline: none !important;
     cursor: pointer;
 
-    & > span {
+    &>span {
       background-color: black;
       width: 25px;
       height: 1px;
@@ -108,120 +108,11 @@
   }
 
   @media (min-width: 960px) {
-    .mobile-container {
+
+    .mobile-container,
+    .sp-navbtn,
+    .mobile-menu {
       display: none;
-    }
-
-    .sp-navbtn {
-      display: none;
-    }
-
-    .pc-container {
-      position: fixed;
-      top: 0;
-      left: 0;
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-end;
-      z-index: 8000;
-      width: 100%;
-      // height: 100px;
-      background-color: rgba(255, 255, 255, 0.3);
-      backdrop-filter: blur(5px);
-      border-bottom: 1px solid rgb(36, 36, 36);
-
-      & .pc-nav {
-        margin-bottom: 10px;
-      }
-
-      & .pc-nav-list {
-        display: flex;
-      }
-
-      & .pc-nav-item {
-        font-size: 14px;
-        padding-top: 20px;
-        padding-right: 3.5vw;
-        transition: all 0.3s;
-
-        & a {
-          color: $cBlack;
-        }
-
-        &:hover {
-          transform: translateY(4px);
-          transition: all 0.3s;
-        }
-
-        & small {
-          color: $cBlue;
-          display: block;
-          text-align: center;
-          font-size: 10px;
-        }
-      }
-
-      & .pc-contact {
-        position: absolute;
-        top: 2px;
-        right: 10px;
-
-        & a {
-          position: relative;
-          background-color: $cShadowBlue;
-          padding: 8px 20px 8px 30px;
-          border-radius: 4px;
-          color: $cWhite;
-          display: inline-block;
-          transition: all 0.3s;
-        }
-
-        & a:hover {
-          transform: translateY(4px);
-          transition: all 0.3s;
-        }
-
-        & .pc-tel {
-          &::before {
-            position: absolute;
-            top: 0;
-            left: 5px;
-            bottom: 0;
-            margin: auto;
-            content: "";
-            height: 18px;
-            width: 18px;
-            background-image: url(../images/common/tel-white.png);
-            background-size: contain;
-            background-repeat: no-repeat;
-          }
-        }
-
-        & .pc-net {
-          &::before {
-            position: absolute;
-            top: 0;
-            left: 5px;
-            bottom: 0;
-            margin: auto;
-            content: "";
-            height: 18px;
-            width: 18px;
-            background-image: url(../images/common/icon-link-1-white.png);
-            background-size: contain;
-            background-repeat: no-repeat;
-          }
-        }
-      }
-
-      & .logo__img {
-        display: inline-block;
-        margin: 15px 10px 20px 20px;
-
-        & .logo {
-          width: 160px;
-        }
-      }
     }
   }
 
@@ -248,7 +139,7 @@
   }
 
   .mobile-menu__btn {
-    & > span {
+    &>span {
       background-color: black;
 
       &:nth-child(1) {
